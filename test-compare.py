@@ -30,7 +30,7 @@ while True:                             # The Event Loop
         break
     if event == ' ПРИНЯЛИ ':
         file1 = file2 = isitago = None
-        #print(values[0],values[3]) #debug
+        print('debug values0=',values[0],' values3=',values[3]) #debug-values
         if values[0] and values[3]:
             file1 = re.findall('.+:\/.+\.+.', values[0])
             file2 = re.findall('.+:\/.+\.+.', values[3])
