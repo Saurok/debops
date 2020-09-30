@@ -25,7 +25,7 @@ layout = [
 window = sg.Window('Сравнение файлов!', layout)
 while True:                             # The Event Loop
     event, values = window.read()
-    #print(event, values) #debug
+    print(event, values) #debug-check
     if event in (None, 'Exit', 'Cancel'):
         break
     if event == ' ПРИНЯЛИ ':
